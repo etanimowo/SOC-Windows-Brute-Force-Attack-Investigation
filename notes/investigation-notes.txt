@@ -1,0 +1,11 @@
+Investigation Notes
+
+Project: Windows Brute Force Attack Investigation
+Target VM: Windows 10-Test
+Target User: testuser
+Attack Source: Windows 10 host
+Attack Method: RDP failed login attempts
+Primary Event ID: 4625
+Relevant Logon Type: 10
+Key Observation: Multiple failed authentication attempts in a short time window from the same source system
+Conclusion: Activity is consistent with an RDP brute force attack simulation in a controlled lab
